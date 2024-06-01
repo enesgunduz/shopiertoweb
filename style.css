@@ -79,7 +79,9 @@ body {
 header{
   width: 100%;
 }
-
+.header-logo a{
+  text-decoration: none;
+}
 .header-list {
   display: flex;
   align-items: center;
@@ -272,6 +274,9 @@ header{
   position: absolute;
   right: 10px;
   bottom: 10px;
+}
+.product-cart a{
+  text-decoration: none;
 }
 
 /* off banner section styles */
@@ -534,6 +539,7 @@ span {
     flex-direction: column;
     justify-content: space-evenly;
     height: 300px;
+    padding: 0 30px;
   }
   #newsletter .form input{
     width: 185px;
@@ -545,6 +551,7 @@ span {
   #footer{
     display: flex;
     flex-direction: column;
+    padding: 0 30px;
     gap: 35px;
   }
 

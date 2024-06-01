@@ -25,7 +25,7 @@ menuIcon.addEventListener('click', () => {
 shopInfo.then(result => {
 
   header_logo.innerHTML += `
-    <h2 href="/index.html">${result.name}</h2>
+    <a  href="/index.html"><h2>${result.name}</h2></a>
   `
 })
 
